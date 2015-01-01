@@ -1,29 +1,9 @@
 <?php
-if(isset($_POST["submit"])){
-// Checking For Blank Fields..
-if($_POST['firstname']==""||$_POST["lastname"]==""||$_POST["company"]==""||$_POST["phonenumber"]==""||
-   $_POST["email"]==""||$_POST["subject"]==""||$_POST["message"]==""){
-        echo "Fill All Fields..";
-    }else{
-        // Check if the "Sender's Email" input field is filled out
-        $email=$_POST['email'];
-        // Sanitize E-mail Address
-        $email =filter_var($email, FILTER_SANITIZE_EMAIL);
-        // Validate E-mail Address
-        $email= filter_var($email, FILTER_VALIDATE_EMAIL);
-            if (!$email){
-                    echo "Invalid Sender's Email";
-            }
-                else{
-                    $subject = $_POST['subject'];
-                    $message = $_POST['message'];
-                    $headers = 'From:'. $email . "\r\n"; // Sender's Email
-// Message lines should not exceed 70 characters (PHP rule), so wrap it
-$message = wordwrap($message, 70);
-// Send Mail By PHP Mail Function
-mail("jwinn1973@fullsail.edu", $subject, $message, $headers);
-echo "Your mail has been sent successfuly ! Thank you for your feedback";
-}
-}
-}
-?>
+$to = "jwinn1973@fullsail.edu";
+$subject = "Test mail";
+$message = "Hello! This is a simple email message.";
+$from = "someonelse@example.com";
+$headers = "From:" . $from;
+mail($to,$subject,$message,$headers);
+echo "Mail Sent.";
+?> 
