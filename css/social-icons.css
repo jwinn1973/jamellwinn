@@ -1,0 +1,8 @@
+#fbIcon {width:40px;height:40px; background:url('../images/facebook.png') 0 0; background-size: 40px;}
+#fbIcon a:hover{width:40px;height:40px; background:url('../images/facebook.png') 0 100%; background-size: 40px}	
+
+#tIcon {width:40px;height:40px; background:url('../images/twitter.png') 0 0; background-size: 40px}
+#tIcon a:hover {width:40px;height:40px; background:url('../images/twitter.png') 0 100%; background-size: 40px}
+
+#gIcon {width:40px;height:40px; background:url('../images/googleplus.png') 0 0; background-size: 40px}
+#gIcon a:hover{width:40px;height:40px; background:url('../images/googleplus.png') 0 100%; background-size: 40px}

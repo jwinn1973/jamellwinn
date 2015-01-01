@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<graphics_info>
+    <graphic>
+        <graphic_id>10</graphic_id>
+        <graphic_name>Mock XXL Magazine Cover</graphic_name>
+        <graphic_image>xxl-mock.jpg</graphic_image>
+        <graphic_category>Photo Manipulation</graphic_category>
+    </graphic>
+    <graphic>
+        <graphic_id>11</graphic_id>
+        <graphic_name>A Picture of Obama As A Jedi Knight</graphic_name>
+        <graphic_image>Obama2012.jpg</graphic_image>
+        <graphic_category>Photo Manipulation</graphic_category>
+    </graphic>
+    <graphic>
+        <graphic_id>12</graphic_id>
+        <graphic_name>Felicia Simmons Logo</graphic_name>
+        <graphic_image>logo-revamp.jpg</graphic_image>
+        <graphic_category>Branding</graphic_category>
+    </graphic>
+</graphics_info>
