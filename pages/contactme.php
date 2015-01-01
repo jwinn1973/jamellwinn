@@ -5,7 +5,7 @@
     <h1 class="modal-title" id="myModalLabel">CONTACT ME</h1>
 </div>
 <div id="contactform" class="modal-body">
-    <form action="pages/mail.php" method="post">
+    <form action="pages/mail.php" method="get">
         
         <label class="col-lg-3" for="firstname"><h4>First Name:</h4></label>
         <input class="col-lg-9" type="text" name="firstname" placeholder="First Name Here" autofocus required>
