@@ -27,7 +27,7 @@
                                 
                 <div id="carousel">
                         <div id="c-image" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <img src="images/darkkeys.jpg" alt="image of dark keys by Jamell Winn" />
+                            <img src="images/name_title.png"/>
                                 </div>
                                     </div>
                 <nav id="tabs" class="navbar" role="navigation">
@@ -82,9 +82,9 @@
                         ?>
 	                <div class="mock_display col-lg-6">
                             <p class="mockup_image col-lg-12">
-                                <img src="<?php echo $mockup_image; ?>" alt="a screenshot of <?php echo $mockup_name; ?>"/>
-                                    </p>
-                            <p class="col-lg-12"><a href="<?php echo $mockup_image; ?>" rel="shadowbox">View Larger</a></p>
+                                <a href="<?php echo $mockup_image; ?>" rel="shadowbox">
+                                    <img src="<?php echo $mockup_image; ?>" alt="a screenshot of <?php echo $mockup_name; ?>"/>
+                                        </p>
                                 </div>       
                     <?php }; ?>
 	           </article> <!-- END MOCK-UPS-->
@@ -114,10 +114,18 @@
             <section id="socialarea" class="container">
                 <h3 class = "col-lg-12">Don't Forget To Add Me On Social Media Sites</h3>
                     <ul>
-                        <li class="icon col-lg-3"><a href="#"><img src="images/social-icons/facebook.png" alt="facebook icon"></a></li>
-                        <li class="icon col-lg-3"><a href="#"><img src="images/social-icons/google.png" alt="google plus icon"></a></li>
-                        <li class="icon col-lg-3"><a href="#"><img src="images/social-icons/linkedin.png" alt="linked-in icon"></a></li>
-                        <li class="icon col-lg-3"><a href="#"><img src="images/social-icons/twiiter.png" alt="twitter icon"></a></li>
+                        <li class="icon col-lg-3"><a href="https://www.facebook.com/jamell.winn" target="_blank">
+                            <img src="images/social-icons/facebook.png" alt="facebook icon"></a>
+                        </li>
+                        <li class="icon col-lg-3"><a href="https://plus.google.com/111123961319267341179/about/p/pub" target="_blank">
+                            <img src="images/social-icons/google.png" alt="google plus icon"></a>
+                        </li>
+                        <li class="icon col-lg-3"><a href="#" target="_blank">
+                            <img src="images/social-icons/linkedin.png" alt="linked-in icon"></a>
+                        </li>
+                        <li class="icon col-lg-3"><a href="#" target="_blank">
+                            <img src="images/social-icons/twiiter.png" alt="twitter icon"></a>
+                        </li>
                     </ul>
 
             </section>
