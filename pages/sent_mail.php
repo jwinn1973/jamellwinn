@@ -1,3 +1,6 @@
+<?php 
+    $xml  = simplexml_load_file('../-data/contact_log.xml');
+?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -43,8 +46,20 @@
                
                 <!-- Home -->
 		          <article id="home" class="tab-pane active col-lg-12">
-                
-                </article>
+                    <?php 
+                        foreach($xml ->contact as $contact){
+                            $firstname = $contact ->firstname;
+                            $lastname = $contact ->lastname;
+                            $email = $contact ->email;
+                    ?>
+                    <div id = 'thankyou'>
+                        <h4> THANK YOU <?php echo strtoupper($firstname) . " ". strtoupper($lastname); ?></h4>
+                        <p>For taking the time to visit my site and your inquiry.</p>
+                        <p>I will contacting you shortly at <?php echo $email; ?>.</p>
+                      
+                    </div>
+                 <?php } ?>      
+                 </article>
         
         </section><!-- END TAB CONTENT -->
             </div><!-- END CONTENT -->

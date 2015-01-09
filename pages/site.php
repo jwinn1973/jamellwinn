@@ -39,7 +39,7 @@ foreach($xml->site as $site){
                                 
                 <div id="carousel">
                         <div id="c-image" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <img src="../images/darkkeys.jpg" alt="image of dark keys by Jamell Winn" />
+                            <img src="../images/name_title.png"/>
                                 </div>
                                     </div>
                 <nav id="tabs" class="navbar" role="navigation">
